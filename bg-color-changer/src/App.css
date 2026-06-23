@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  transition: background 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.red {
+  background-color: #dd2476;
+}
+
+.blue {
+  background-color: #5b86e5;
+}
+
+.green {
+  background-color: #56ab2f;
+}
+
+.purple {
+  background-color: #8e2de2;
+}
+
+.random {
+  background-color: black;
+}
+
+p {
+  margin-top: 20px;
+  max-width: 500px;
+}
